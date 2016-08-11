@@ -14,7 +14,7 @@ from      stl_tr_conflict; -- lock conflicts
 
 
 select    userid, query, pid, starttime, left(text, 50) as text
-from      stv_inflight 
+from      stv_inflight   -- current queries running
 
 
 select
